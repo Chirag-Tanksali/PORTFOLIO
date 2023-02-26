@@ -10,6 +10,7 @@ import './Projects.css';
 
 export default function Projects(props) {
 
+
     let fadeInScreenHandler = (screen) => {
         if (screen.fadeInScreen !== props.id)
             return
@@ -39,6 +40,8 @@ export default function Projects(props) {
         },
     };
 
+        
+
     return (
         <div>
             <ScreenHeading
@@ -60,7 +63,7 @@ export default function Projects(props) {
                                     
                                 </div>
                             </div>
-                            <div className='col-lg-12'>
+                            <div className='col-lg-12' >
                                 <div className='project-item'>
                                     <div className='project-comment'>
                                         <h3>Personal Portfolio Website</h3>
